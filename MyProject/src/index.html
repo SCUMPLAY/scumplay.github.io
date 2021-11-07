@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,29 +7,31 @@
      <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+   <div class="circle"></div>
    <header>
        <nav>
         <div class="logo">Силантьев Сергей</div>
         <div class="menu">
         <ul>
-        <li>Обо мне</li>
-        <li>Услуги</li>
-        <li>Кейсы</li>
-        <li>Прайсы</li>
-        <li>Отзовы</li>
-        <li>Контакты</li>
+        <li><a href="a">Обо мне</a></li>
+        <li><a href="a">Услуги</a></li>
+        <li><a href="a">Кейсы</a></li>
+        <li><a href="a">Прайсы</a></li>
+        <li><a href="a">Отзовы</a></li>
+        <li><a href="a">Контакты</a></li>
         </ul>
         </div>
        </nav>
    </header>
    
- <div class="main" > <div class="title__container">
+   <main>
+ <section class="main" > <div class="title__container">
    <h1>Привет <br> Я Cергей Cилантьев </h1> 
    <h4>Фулл стек веб-разработчик </h4>
-   <input type="submit" value="Обо мне">
-   <input type="submit" value="Мои работы">
+   <input type="button" value="Обо мне">
+   <input type="button" value="Мои работы">
    </div> 
-   </div>
+   </section>
    <div class="me"> <h5> <br>ОБО МНЕ</h5>
    <h6><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, magnam voluptatem officia. <br>Eligendi omnis corporis a, repellendus molestias ex, numquam.</p>
    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, magnam voluptatem officia. <br>Eligendi omnis corporis a, repellendus molestias ex, numquam.</p></h6>
@@ -39,45 +41,59 @@
    <li2>Разработка,<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Nobis voluptate, dolorum atque, <br>ipsa blanditiis facilis sit iste ratione? <br>Alias, quos?</li2>
    <li3>CEO-Оптимизация,<br>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>In eaque repellat <br>tenetur quas, quam et maxime! <br>Unde, ducimus at? Ipsam!</li3>
    <li4>Маркетинг,<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Excepturi atque laborum quia voluptatum <br>doloribus quos eos quas aliquam <br>officiis ipsam quo et tenetur.</li4></div>
-   <div class="CASES"> <br><li1><p>КЕЙСЫ 
-   <br></p></li1><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorem debitis nostrum illo corrupti molestias, assumenda delectus ipsum vero eum.
+   <div class="CASES"> <br><p><li1>КЕЙСЫ </li1>
+   <br><span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorem debitis nostrum illo corrupti molestias, assumenda delectus ipsum vero eum.</p></span>
    <h1><br><p>CLIENT:
    <br>Какая-такомпния</p>
    <br><p>WEBSITE:
    <br><a href="http://www.somedornain.com" target="_blank">http://www.somedornain.com</a></p></h1>
    <li2>Названия проекта</li2> <li3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum quod nulla atque est facere, temporibus placeat quis, voluptates neque.<p></li3> 
    <input type="submit" value="VISIT LIVE SITE"></div>
-   <div class="calcu"><h1>Расчет стоимости</h1>
-   <li1>ТИП САЙТА
-   <select name="number" id=""></select></li1>
-   <br><li2>ДИЗАЙН 
-   <select name="number" id=""></select></li2>
-   <br><li3>АДАПТИВНОСТЬ</li3>
-   <br> <select name="number" id=""></select>
-   <br><li4>Сроки</li4>
-   <br>Стоимость</div>
-   <div class="stak"><h1>НЕМНОГО СТАТИСТИКИ</h1>
+   <div class="calcu"><h1>РАСЧЕТ СТОИМОСТИ</h1>
+   <h2>ТИП САЙТА</h2>
+   <select name="selcet-category" id="" class="select">
+   <option value="1">Выберете пнукт...</option>
+   </select>
+   <h3>ДИЗАЙН</h3>
+   <select name="selcet-category" id="" class="select1">
+   <option value="2">Выберете пнукт...</option>
+   </select>
+   <h4>АДАПТИВНОСТЬ</h4>
+   <select name="selcet-category" id="" class="select2">
+   <option value="3">Выберете пнукт...</option>
+   </select>
+   <h5><br><p>Сроки                            
+    <br>Стоимость</p></h5></div>
+    <div class="parallax">
+   <div class="parallax-content">
+   <h1>НЕМНОГО СТАТИСТИКИ</h1>
    <h2>120 <br><li1>счастливых клиентов</li1></h2> 
    <h3>4,600 <br><li2>часов работы</li2></h3> 
    <h4>340 <br><li3>проектов завершено</li3></h4>
-   <h5>23 <br><li4>награды получено</li4></h5> </div>
-   <div class="reviews"><h1>ОТЗЫВЫ</h1>
-   <li2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Molestiae placeat pariatur adipisci quam ullam nesciunt eos cum error minus voluptates.</p>
-   <p> <b>Михаил</b> , Ген директор ПАО "Газпром"</p></li2>
+   <h5>23 <br><li4>награды получено</li4></h5></div>
    </div>
-
+   <div class="reviews"><h1>ОТЗЫВЫ</h1>
+   <h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Molestiae placeat pariatur adipisci quam ullam nesciunt eos cum error minus voluptates.</p>
+   <p> <b>Михаил</b> , Ген директор ПАО "Газпром"</p></h2>
+   </div>
    <footer>
-    <div><h1>МОИ КОНТКТЫ</h1></div>   
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facilis?</p>
-      <div>Санк-Петербург <br> Невский проспект 11</div>
-      <br><div>info@companyname.com</div>
-      <br><div>79999999999</div>
-      <form action="s"></form>
-      <dive><h1>ОТПРАВИТИЬ МНЕ СООБЩЕНИЯ</h1></dive>
-      <input type="text" name="text_input" value="Имя">
-      <input type="text" name="text_input" value="Email">
+    <div class="footer">
+    <div class="footer-block">
+    <h1>МОИ КОНТКТЫ</h1>
+     <h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatibus ipsam perferendis aspernatur, quae aliquam recusandae soluta nostrum provident sint.   
+    </p></h2>
+      <h3><p>Санк-Петербург <br>Невский проспект 11</p></h3>
+      <h4><p>info@companyname.com</p></h4>
+      <h5><p>9999999999</p></h5></div>
+      <div class="footersearch">
+      <h1>ОТПРАВИТИЬ МНЕ СООБЩЕНИЯ</h1>
+      <input type="text1" name="text_input" value="Имя">
+      <input type="text2" name="text_input" value="Email">
       <textarea name="Cообщения" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="Отправить сообщения">
+        </div>
+    </div>   
    </footer>
+  </main>
 </body>
 </html>
